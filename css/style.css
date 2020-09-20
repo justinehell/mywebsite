@@ -1,0 +1,350 @@
+@font-face {
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Segoe UI.woff') format('woff');
+}
+@font-face {
+  font-family: 'corbel bold';
+  src: url('../fonts/corbel bold.ttf') format('truetype');
+}
+body{
+  margin: 0px;
+  background-image: url('../images/backgroundd.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Navigation*/
+
+.dropbtn {
+  background-color: #191919;
+  color: white;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: none;
+  font-family: 'Segoe UI Regular';
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #191919;}
+header{
+  background-color: #191919;
+  height: 50px;
+  border-color: white;
+  border-bottom: 5px white solid;
+  box-shadow: 0px 6px 6px black;
+  z-index: 1000;
+  position: sticky;
+  top: 0px;
+}
+nav ul{
+  color: white;
+  font-family: 'Segoe UI Regular';
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+}
+li{
+  margin: 15px;
+}
+
+/*Section - ABOUT ME*/
+
+p{
+    text-align: justify;
+    font-family: 'Segoe UI Regular';
+    font-size: 0.9em;
+}
+span{
+    text-align: left;
+    font-family: 'corbel bold';
+}
+center{
+    font-style: italic;
+    font-family: 'Segoe UI Regular';
+    font-size: 0.9em;
+}
+#firstsection{
+    width: 80vw;
+}
+section{
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.aboutmesection{
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(241, 241, 241, 0.4);
+}
+#profilpic{
+  order: 2;
+  box-shadow: 6px 6px 6px black;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+#profildescription{
+  order: 1;
+  color: #191919;
+  text-align: right;
+  max-width: 80%;
+  padding: 50px;
+  font-size: 1.8em;
+  font-family: 'Segoe UI Regular';
+}
+h1{
+  font-family: 'corbel bold';
+  color: #F1F1F1;
+  text-align: center;
+  font-size: 4em;
+}
+h2{
+    font-family: 'corbel bold';
+    color: #191919;
+    font-size: 2.5em;
+}
+
+/*Section - PORTFOLIO*/
+
+.container /*element*/
+{
+  background-color: rgba(241, 241, 241, 0.4);
+  width: 100%;
+  min-height: 300px;
+  padding: 60px;
+  box-sizing: border-box;
+}
+.indexphoto{
+    width: 100%;
+}
+.overlay {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-family: 'corbel bold';
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.imageoverlay{
+    position: relative;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+}
+.imageoverlay:hover .overlay {
+  opacity: 1;
+}
+
+/*Section - CONTACT*/
+
+#sectioncontact {
+  background-color: rgba(241, 241, 241, 0.4);
+  color: #191919;
+  text-align: center;
+  max-width: 80%;
+  margin: 40px;
+  padding: 30px;
+  font-size: 1.8em;
+  font-family: 'Segoe UI Regular';
+}
+.icons{
+  width : 50px;
+  height: 50px;
+  fill : #191919;
+}
+.icons:hover .newshape{
+  fill : white;
+}
+p{
+  margin: 0px;
+}
+footer{
+  padding: 25px;
+  color: #F1F1F1;
+  background-color: #191919;
+  font-family: 'Segoe UI Regular';
+  text-align: center;
+}
+.pfooter{
+    text-align: center;
+}
+
+/* Redirection - ANCRE*/
+a{
+  text-decoration: none;
+  color: lightgrey;
+}
+a:hover{
+  font-weight: bolder;
+  text-decoration: none;
+  color: white;
+}
+.fab {
+  color: #191919;
+  size: 50px;
+}
+.fab:hover {
+  color: #F1F1F1;
+}
+
+/* Portfolio - Photographies*/
+
+.subtitle{
+    top: 70px;
+    width: 25%;
+    background-color: rgba(241, 241, 241, 0.4);
+    padding-left: 60px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 60px;
+}
+.row {
+  position: relative;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-bottom: 8px;
+  box-sizing: border-box;
+  margin-left: 200px;
+  margin-right: 200px;
+  flex-direction: row;
+}
+/* Create 3 equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  /* border: 10px solid white; */
+  outline: 6px solid #F1F1F1;
+  outline-offset: -6px;
+}
+.display2Column{
+    display: none;
+}
+/* Responsive layout - makes a reduced margin for the 3 columns */
+@media screen and (max-width: 1400px){
+  .row{
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1{
+    font-size: 3em;
+  }
+  h2{
+    font-size: 1.8em;
+  }
+}
+/* Responsive layout - makes a 2 column-layout instead of 3 columns */
+@media screen and (max-width: 1000px){
+  .column{
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thirdColumn{
+    display: none;
+  }
+  .display2Column{
+    display: block;
+  }
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  .subtitle{
+    min-width: 35%;
+    flex-wrap: nowrap;
+  }
+  .aboutmesection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #profilpic{
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  section{
+     min-width: 60vw;
+  }
+ .container{
+     padding: 10px;
+ }
+}
+/* Responsive layout - makes a 1 column-layout (the two columns stack on top of each other instead of next to each other) */
+@media screen and (max-width: 600px){
+  .column{
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+  .subtitle{
+    min-width: 35%;
+    flex-wrap: nowrap;
+  }
+  .aboutmesection{
+    flex-direction: column;
+    align-items: center;
+  }
+  #profilpic{
+    width: 40vw;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  section{
+      width: 80vw;
+  }
+ .container{
+     padding: 10px;
+ }
+ p{
+     font-size: 0.6em;
+ }
+}
