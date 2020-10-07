@@ -2,7 +2,7 @@
 <html id="about" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- <script src="js/master.js"></script> -->
     <script
       src="https://kit.fontawesome.com/22fa1eb133.js"
@@ -72,22 +72,24 @@
     </div>
 
     <div class="container-projets">
-      <a
-        class="mobile_view-container"
-        href="https://shakeit.netlify.app/"
-        target="_blank"
-      >
-        <img
-          class="screenshot mobile_view"
-          src="./images/shakeit_screenshot.png"
-          alt="page accueil du site 'Shake it'"
-        />
-        <img
-          class="screenshot mobile_view"
-          src="./images/shakeit_screenshot3.png"
-          alt="page liste des courses du site 'Shake it'"
-        />
-      </a>
+      <div class="flex">
+        <a
+          class="mobile_view-container"
+          href="https://shakeit.netlify.app/"
+          target="_blank"
+        >
+          <img
+            class="screenshot mobile_view"
+            src="./images/shakeit_screenshot.png"
+            alt="page accueil du site 'Shake it'"
+          />
+          <img
+            class="screenshot mobile_view"
+            src="./images/shakeit_screenshot3.png"
+            alt="page liste des courses du site 'Shake it'"
+          />
+        </a>
+      </div>
       <article>
         <h3>
           <span class="section-title">Description : </span><br />Second projet
@@ -234,15 +236,17 @@
       <a class="img-link" href="https://www.lesruchesdudon.fr/" target="_blank">
         <img
           class="screenshot"
-          src=""
-          alt="screenshot du site 'les ruches du don' sous Wordpress (en attente)"
+          src="./images/ruches_screenshot.jpg"
+          alt="screenshot du site 'les ruches du don' sous Wordpress"
           height="240"
           width="300"
       /></a>
       <article>
         <h3>
           <span class="section-title">Description :</span><br />
-          Refonte du site web d'un particulier via Wordpress.
+          Refonte du site web d'un particulier via Wordpress. Objectifs : rendre
+          le site responsive et moderniser le design tout en gardant la charte
+          graphique du site actuel.
         </h3>
 
         <h3><span class="section-title">Technologies :</span> Wordpress</h3>
@@ -252,8 +256,10 @@
             >Les ruches du Don (site actuel)</a
           ><br />
           <a href="https://www.lesruchesdudon.fr/" target="_blank"
-            >Les ruches du Don (site Wordpress - changement d'hébergeur en
-            cours)</a
+            >Wordpress - version desktop</a
+          ><br />
+          <a href="https://www.lesruchesdudon.fr/" target="_blank"
+            >Wordpress - version mobile</a
           >
         </h3>
       </article>

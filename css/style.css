@@ -172,7 +172,9 @@ h2 {
 .imageoverlay:hover .overlay {
   opacity: 1;
 }
-
+.flex {
+  display: flex;
+}
 /*Section - CONTACT*/
 
 #sectioncontact {
@@ -298,6 +300,30 @@ article {
 .max-width {
   max-width: 550px;
 }
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
 /* Create 3 equal columns that sits next to each other */
 .column {
   -ms-flex: 33%; /* IE10 */
@@ -317,6 +343,28 @@ article {
 .display2Column {
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .container-projets {
+    flex-direction: column;
+    width: 80%;
+  }
+  .container-projets a {
+    display: block;
+ 
+  }
+  .mobile_view-container img {
+    width: 80px
+  }
+  .
+}
+@media screen and (max-width: 1128px) {
+  .container-projets {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+
 /* Responsive layout - makes a reduced margin for the 3 columns */
 @media screen and (max-width: 1400px) {
   .row {
