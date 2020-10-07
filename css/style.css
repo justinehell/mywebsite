@@ -217,8 +217,8 @@ header a {
 }
 a:hover {
   font-weight: bolder;
-  text-decoration: none;
   color: white;
+  text-decoration: underline;
 }
 .fab {
   color: #191919;
@@ -251,6 +251,52 @@ a:hover {
   margin-left: 200px;
   margin-right: 200px;
   flex-direction: row;
+}
+
+/* WEB PROJECTS */
+
+.section-title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.container-projets {
+  display: flex;
+  margin: auto;
+  min-width: 400px;
+  /* height: 350px; */
+  width: 60%;
+  padding: 25px;
+  color: #f1f1f1;
+  background-color: #191919;
+  font-family: "Segoe UI Regular";
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container-projets a {
+  display: contents;
+}
+.screenshot {
+  /* //width: 80%; */
+  min-width: 400px;
+  object-fit: cover;
+}
+
+article {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.mobile_view {
+  min-width: 200px;
+  max-height: 500px;
+  margin-left: 10px;
+}
+.mobile_view-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.max-width {
+  max-width: 550px;
 }
 /* Create 3 equal columns that sits next to each other */
 .column {
