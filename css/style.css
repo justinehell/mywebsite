@@ -322,8 +322,6 @@ div.desc {
   text-align: center;
 }
 
-
-
 /* Create 3 equal columns that sits next to each other */
 .column {
   -ms-flex: 33%; /* IE10 */
@@ -351,12 +349,10 @@ div.desc {
   }
   .container-projets a {
     display: block;
- 
   }
   .mobile_view-container img {
-    width: 80px
+    width: 80px;
   }
-  .
 }
 @media screen and (max-width: 1128px) {
   .container-projets {
