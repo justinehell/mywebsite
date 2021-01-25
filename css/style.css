@@ -224,7 +224,7 @@ header a {
   font-size: 20px;
 }
 a:hover {
-  font-weight: bolder;
+  font-weight: 700;
   color: white;
   text-decoration: underline;
 }
