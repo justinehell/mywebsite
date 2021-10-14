@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html id="about" lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Salut Moi c'est Justine, développeuse front-end VueJS. Ceci est mon tout premier projet, un portfolio Dev Web & Arts"
+    />
+    <meta
+      name="keywords"
+      content="développement web, front-end, VueJS, portfolio"
+    />
+    <meta name="author" content="Justine Hell" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
-    <!-- <script src="js/master.js"></script> -->
     <script
       src="https://kit.fontawesome.com/22fa1eb133.js"
       crossorigin="anonymous"
     ></script>
     <title>Justine Hell</title>
   </head>
-  <body>
+  <body id="about">
     <header>
       <nav>
         <ul>
@@ -31,41 +40,47 @@
         </ul>
       </nav>
     </header>
-    <section id="firstsection">
+    <section id="presentation">
+      <!-- Back to top button -->
+      <a onclick="topFunction()" id="go-top" title="Go to top"></a>
       <h1>About me.</h1>
-      <div class="aboutmesection">
+      <div class="about-me">
         <div>
-          <img id="profilpic" src="images/profilpicshrink.jpg" alt="photo" />
+          <img id="picture" src="./assets/images/profilpic.jpg" alt="photo" />
         </div>
-        <div id="profildescription">
+        <div id="description">
           <p>
-            Salut 👋 Moi c'est Justine, développeuse Web en devenir. <br />
+            Salut 👋 Moi c'est Justine,
+
+            <a href="./assets/CV_Justine_Hell.pdf" target="_blank"
+              >développeuse front-end VueJS</a
+            >
+            Junior.
+            <br />
+            <br />
             En 2019, j'ai décidé de quitter le domaine de la microbiologie pour
             m'épanouir dans un secteur qui me correspond mieux et qui me donne
-            des étoiles dans les yeux 🤩
-            <i>(en plus ça rime)</i>. Créative et curieuse, j'aime apprendre de
-            nouvelles choses et je suis fascinée de jour en jour par les
-            possibilités quasi infinies qu'offre le développement web.
+            des étoiles dans les yeux 🤩 <i>(en plus ça rime)</i>. Créative et
+            curieuse, j'aime apprendre de nouvelles choses et je suis fascinée
+            de jour en jour par les possibilités quasi infinies qu'offre le
+            développement web, surtout front-end.
             <br />
-            Ici, vous trouverez mon tout premier projet numérique, un
-            portfolio afin de partager mes <strong><a href="#portfolio">créations
-            artistiques</a></strong> sur la toile.
-            <br /><br />
-            <strong
-              >UPDATE : ce site a été mis à jour afin de montrer mes
-              réalisations en <a href="#projects">développement web</a>. Je vais développer un
-              porfolio tout neuf alors.. <br />
-              <center>✨STAY TUNES✨</center></strong
-            >
             <br />
-            <p>
+            Ici, vous trouverez mon tout premier projet numérique, un portfolio
+            afin de partager mes
+            <a href="#portfolio">créations artistiques</a> sur la toile. Ce site
+            a été mis à jour afin de montrer mes réalisations en
+            <a href="#projects">développement web</a>.
+            <br />
+            <br />
             Si vous souhaitez en savoir plus sur mon parcours, je vous invite à
-            jeter un oeil sur mon profil Linkedin juste
+            jeter un oeil sur mon
             <a href="https://www.linkedin.com/in/justinehell/" target="_blank"
-              >ici</a
-            >.</p>
+              >profil Linkedin</a
+            >.
             <br />
-            <center>Bonne visite !</center>
+            <br />
+            <center>✨ Bonne visite !</center>
           </p>
         </div>
       </div>
@@ -76,10 +91,10 @@
       <h1>Web Portfolio.</h1>
       <div class="container">
         <a href="projects.html">
-          <div class="imageoverlay">
+          <div class="image-overlay">
             <img
-              src="./images/Projets/la_terre_du_milieu_screenshot.png"
-              class="indexphoto"
+              src="./assets/images/Projets/la_terre_du_milieu_screenshot.png"
+              class="index-photo"
             />
             <div class="overlay">Team projects</div>
           </div>
@@ -87,10 +102,10 @@
       </div>
       <div class="container">
         <a href="projects.html">
-          <div class="imageoverlay">
+          <div class="image-overlay">
             <img
-              src="./images/Projets/slick_slices_screenshot.png"
-              class="indexphoto"
+              src="./assets/images/Projets/slick_slices_screenshot.png"
+              class="index-photo"
             />
             <div class="overlay">Personal projects</div>
           </div>
@@ -103,24 +118,24 @@
       <h1>Art Portfolio.</h1>
       <div class="container">
         <a href="photography.html">
-          <div class="imageoverlay">
-            <img src="images/indexp.jpg" class="indexphoto" />
+          <div class="image-overlay">
+            <img src="./assets/images/indexp.jpg" class="index-photo" />
             <div class="overlay">Photographies</div>
           </div>
         </a>
       </div>
       <div class="container">
         <a href="aquarelles.html">
-          <div class="imageoverlay">
-            <img src="images/indexa.jpg" class="indexphoto" />
+          <div class="image-overlay">
+            <img src="./assets/images/indexa.jpg" class="index-photo" />
             <div class="overlay">Aquarelles</div>
           </div>
         </a>
       </div>
       <div class="container">
         <a href="dessins.html">
-          <div class="imageoverlay">
-            <img src="images/indexd.jpg" class="indexphoto" />
+          <div class="image-overlay">
+            <img src="./assets/images/indexd.jpg" class="index-photo" />
             <div class="overlay">Dessins & autres</div>
           </div>
         </a>
@@ -129,6 +144,16 @@
     <section>
       <h1 id="contact">Contact.</h1>
       <div id="sectioncontact">
+        <a class="mail" href="mailto:hell.justine@gmail.com"
+          >hell.justine@gmail.com</a
+        >
+        <br /><br />
+        <button class="cv-btn">
+          <a class="mail" href="./CV_Justine_Hell.pdf" target="_blank"
+            >Voir mon CV (PDF)</a
+          >
+        </button>
+        <br /><br />
         <a
           href="https://www.instagram.com/justine_vhll/?hl=fr"
           target="_blank"
@@ -176,11 +201,11 @@
             ></path>
           </svg>
         </a>
-        <br />hell.justine@gmail.com
       </div>
     </section>
     <footer>
       <p class="pfooter">&copy; 2019-2021 by Justine Hell</p>
     </footer>
   </body>
+  <script src="./js/scrollTop.js"></script>
 </html>

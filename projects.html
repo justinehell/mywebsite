@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<html id="about" lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
   <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Portfolio Web - présentation de mes projets web personnels et en équipe"
+    />
+    <meta name="keywords" content="développement web, projects, front-end, VueJS, portfolio" />
+    <meta name="author" content="Justine Hell" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <script
       src="https://kit.fontawesome.com/22fa1eb133.js"
       crossorigin="anonymous"
@@ -30,6 +37,8 @@
       </nav>
     </header>
     <hr id="projects" style="opacity: 0; position: relative; top: -40px" />
+    <!-- Back to top button -->
+    <a onclick="topFunction()" id="go-top" title="Go to top"></a>
     <headersection>
       <h1>Web Portfolio.</h1>
     </headersection>
@@ -41,7 +50,7 @@
     <div class="container-projets">
       <img
         class="screenshot"
-        src="./images/Projets/intranet_screenshot.png"
+        src="./assets/images/Projets/intranet_screenshot.png"
         alt="screenshot de la platforme d'anciens élèves"
         height="240"
         width="300"
@@ -133,7 +142,7 @@
       >
         <img
           class="screenshot"
-          src="./images/Projets/la_terre_du_milieu_screenshot.png"
+          src="./assets/images/Projets/la_terre_du_milieu_screenshot.png"
           alt="screenshot du site 'La Terre du Milieu'"
           height="240"
           width="300"
@@ -194,7 +203,7 @@
       <a class="img-link" href="https://www.sensinterdits.org/" target="_blank">
         <img
           class="screenshot"
-          src="./images/Projets/sens_interdits_screenshot.png"
+          src="./assets/images/Projets/sens_interdits_screenshot.png"
           alt="screenshot du site 'Sens Interdit'"
           height="240"
           width="300"
@@ -259,12 +268,12 @@
         >
           <img
             class="screenshot mobile_view"
-            src="./images/Projets/shakeit_screenshot.png"
+            src="./assets/images/Projets/shakeit_screenshot.png"
             alt="page accueil du site 'Shake it'"
           />
           <img
             class="screenshot mobile_view"
-            src="./images/Projets/shakeit_screenshot3.png"
+            src="./assets/images/Projets/shakeit_screenshot3.png"
             alt="page liste des courses du site 'Shake it'"
           />
         </a>
@@ -328,7 +337,7 @@
       >
         <img
           class="screenshot"
-          src="./images/Projets/quiz_screenwhot.png"
+          src="./assets/images/Projets/quiz_screenwhot.png"
           alt="screenshot du site 'Quiz du Grenier'"
           height="240"
           width="300"
@@ -405,7 +414,7 @@
         </p>
         <br />
 
-        <p><span>Technologies : </span>Gatsby / Sanity</p>
+        <p><span>Technologies : </span>Nuxt</p>
         <br />
         <p>
           <span>Lien : </span>
@@ -419,10 +428,10 @@
 
     <div class="container-projets">
       <video controls width="400">
-        <source src="./videos/newsBlog_presentation.mp4" type="video/mp4" />
+        <source src="./assets/videos/newsBlog_presentation.mp4" type="video/mp4" />
         <p>
           Votre navigateur ne prend pas en charge les vidéos HTML5. Voici
-          <a href="./videos/newsBlog_presentation.mp4"
+          <a href="./assets/videos/newsBlog_presentation.mp4"
             >un lien pour télécharger la vidéo</a
           >.
         </p>
@@ -451,7 +460,7 @@
           <span>Liens : </span>
           &nbsp;
           <a
-            href="./videos/newsBlog_presentation.mp4"
+            href="./assets/videos/newsBlog_presentation.mp4"
             target="_blank"
             fill="white"
             class="icons icons--small"
@@ -503,7 +512,7 @@
       >
         <img
           class="screenshot"
-          src="./images/Projets/meteo_vue_screenshot.png"
+          src="./assets/images/Projets/meteo_vue_screenshot.png"
           alt="Météo de Lyon"
           height="240"
           width="300"
@@ -589,7 +598,7 @@
       >
         <img
           class="screenshot"
-          src="./images/Projets/slick_slices_screenshot.png"
+          src="./assets/images/Projets/slick_slices_screenshot.png"
           alt="screenshot du site 'Slick Slices'"
           height="240"
           width="300"
@@ -676,7 +685,7 @@
       >
         <img
           class="screenshot"
-          src="./images/Projets/ghibli_screenshot3.png"
+          src="./assets/images/Projets/ghibli_screenshot3.png"
           alt="screenshot du site 'Ghibli Guide'"
           height="240"
           width="300"
@@ -754,7 +763,7 @@
       <a class="img-link" href="https://justinehell.fr/" target="_blank">
         <img
           class="screenshot max-width"
-          src="./images/Projets/mywebsite_screenshot.png"
+          src="./assets/images/Projets/mywebsite_screenshot.png"
           alt="screenshot de mon site Portfolio"
           height="240"
           width="300"
@@ -830,7 +839,7 @@
     <div class="container-projets">
       <img
         class="screenshot"
-        src="./images/Projets/ruches_screenshot.jpg"
+        src="./assets/images/Projets/ruches_screenshot.jpg"
         alt="screenshot du site 'les ruches du don' sous Wordpress"
         height="240"
         width="300"
@@ -852,19 +861,19 @@
         <p>
           <span>Capture du site Wordpress :</span><br />
           Accueil :
-          <a href="./images/Projets/Web_Home_Big.png" target="_blank"
+          <a href="./assets/images/Projets/Web_Home_Big.png" target="_blank"
             >desktop</a
           >
           &
-          <a href="./images/Projets/Mobile_HomePage.png" target="_blank"
+          <a href="./assets/images/Projets/Mobile_HomePage.png" target="_blank"
             >mobile</a
           ><br />
           Parrainage :
-          <a href="./images/Projets/Web_Page2_Big.png" target="_blank">
+          <a href="./assets/images/Projets/Web_Page2_Big.png" target="_blank">
             desktop</a
           >
           &
-          <a href="./images/Projets/Mobile_Page2.png" target="_blank">mobile</a>
+          <a href="./assets/images/Projets/Mobile_Page2.png" target="_blank">mobile</a>
         </p>
       </article>
     </div>
@@ -873,4 +882,5 @@
       <p class="pfooter">&copy; 2019-2021 by Justine Hell</p>
     </footer>
   </body>
+  <script src="./js/scrollTop.js"></script>
 </html>
