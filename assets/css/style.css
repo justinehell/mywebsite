@@ -60,13 +60,10 @@ h3 {
 }
 header {
   background-color: #191919;
-  height: 70px;
-  border-color: white;
-  border-bottom: 5px white solid;
   box-shadow: 0px 6px 6px black;
   z-index: 1000;
   position: sticky;
-  top: 0px;
+  top: 0;
   box-sizing: border-box;
 }
 nav ul {
@@ -80,6 +77,23 @@ nav ul {
 }
 li {
   margin: 15px;
+}
+
+/* Alert Message */
+.alert-message {
+  width: 100%;
+  background-color: white;
+}
+.alert-message p {
+  text-align: center;
+  padding: 20px;
+}
+.alert-message p a {
+  color: #191919;
+}
+
+.alert-message p a:hover {
+  text-decoration: underline;
 }
 
 /* Go To Top Button */
@@ -221,7 +235,7 @@ h2 {
 }
 
 /* CONTACT */
-#sectioncontact {
+#section-contact {
   background-color: rgba(241, 241, 241, 0.4);
   color: #191919;
   text-align: center;
@@ -234,9 +248,15 @@ h2 {
 .cv-btn {
   padding: 10px;
   font-size: 20px;
+  background: #191919;
+  border: #191919;
+  border-radius: 5px;
+  color: rgba(241, 241, 241, 0.4);
+  cursor: pointer;
 }
-.cv-btn a,
-.mail {
+.cv-btn:hover {
+  background: white;
+  border: white;
   color: #191919;
 }
 .icons {
